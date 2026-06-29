@@ -1,7 +1,7 @@
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRoleBinding
 metadata:
-  name: dev-secret-reader-global
+  name: read-dev-secret-reader
   namespace: default
 subjects:
 - kind: Group
